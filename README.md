@@ -14,3 +14,7 @@ Neural-Anchor is designed for those who experience cognitive overload. It transf
 1. Create a private repository (`neural-anchor-sanctuary`).
 2. Use this repo as a template to initialize your vault.
 3. Follow the `prompts/` to process your captured articles.
+
+
+### 快速采集路径 (Fast-Track)
+- `raw/rednote/` $ightarrow$ 存放从小红书等平台快速抓取的原始脱水笔记，旨在降低认知摩擦，快速沉淀。

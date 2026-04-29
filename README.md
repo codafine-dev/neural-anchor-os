@@ -28,6 +28,6 @@ While the OS provides the prompts, the resulting knowledge is stored in a 3-laye
 2. Use the prompts in `raw/` to process captured data.
 3. Use the prompts in `ledger/` to maintain your engineering worklog and track system evolution.
 
-### ⚡️ 快速采集路径 (Fast-Track)
+### ⚡️ Fast-Track Pipeline
 `raw/` (Ingestion/Extraction Prompt) ➡️ `vault/raw/` (Store Raw Notes) ➡️ `vault/Reading/Working` (Structured Storage).
-旨在通过极低的认知摩擦，快速完成从“碎片抓取”到“结构沉淀”的闭环。
+Designed to close the loop from "fragmented capture" to "structural sedimentation" with minimal cognitive friction.

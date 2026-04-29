@@ -7,24 +7,27 @@ Neural-Anchor is designed for those who experience cognitive overload. It transf
 
 ## 🏗️ Architecture
 
-### ⚙️ System Components
-- `raw/`: **Ingestion Engine**. Prompts for transforming raw, unstructured inputs into structured formats.
-- `ledger/`: **Evolution Ledger**. Prompts for recording architectural shifts and system-level changes to prevent cognitive loss.
-- `prompts/`: **Extraction Drivers**. High-fidelity prompts for deep knowledge extraction (Guardian 2.0).
-- `templates/`: **Standardized Formats**. The blueprints for knowledge assets.
-- `vault-template/`: **The Blueprint**. The exact folder hierarchy for the Obsidian vault.
+### ⚙️ Distributed System Components
+The OS is organized as a set of functional prompts distributed by purpose:
 
-### 📚 The 3-Layer Blueprint (`vault-template`)
-The system organizes knowledge into three distinct layers to separate noise from signal:
+- `raw/`: **Ingestion & Extraction Engine**.
+  - Contains the high-fidelity prompts used to transform raw, unstructured inputs into structured knowledge assets.
+- `ledger/`: **System Evolution & Worklog**.
+  - `daily ledger/`: End-of-day cognitive summaries and "Ledger Guardian" prompts to prevent daily memory loss.
+  - `monthly_ledger/`: High-level engineering evolution trackers for architectural shifts.
+  - `projets/`: Standardization prompts for initializing new technical projects.
+
+### 📚 The 3-Layer Blueprint (Logic)
+While the OS provides the prompts, the resulting knowledge is stored in a 3-layer vault structure:
 - **01-READING (Domains ➡️ Topics ➡️ Patterns ➡️ Digests)**: Long-term structural assets and verified patterns.
 - **02-WORKING (Article Notes ➡️ Pattern Candidates ➡️ Topic Drafts ➡️ Research Questions)**: The active processing zone for synthesis and questioning.
 - **99-SYSTEM (Indexes ➡️ Extractions ➡️ Reports ➡️ State ➡️ Meta)**: The meta-layer for system state and architectural management.
 
 ## 🚀 Getting Started
-1. Create a private repository (`neural-anchor-sanctuary`).
-2. Use this repo as a template to initialize your vault.
-3. Follow the `raw/` prompts to ingest data ➡️ `prompts/` to extract knowledge ➡️ `templates/` to store assets.
+1. Create your private sanctuary vault (`neural-anchor-sanctuary`).
+2. Use the prompts in `raw/` to process captured data.
+3. Use the prompts in `ledger/` to maintain your engineering worklog and track system evolution.
 
 ### ⚡️ 快速采集路径 (Fast-Track)
-`raw/` (Ingestion Prompt) ➡️ `vault/raw/` (Store Raw Notes) ➡️ `prompts/` (Extract) ➡️ `vault/Reading/Working` (Structured Storage).
+`raw/` (Ingestion/Extraction Prompt) ➡️ `vault/raw/` (Store Raw Notes) ➡️ `vault/Reading/Working` (Structured Storage).
 旨在通过极低的认知摩擦，快速完成从“碎片抓取”到“结构沉淀”的闭环。
